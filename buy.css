@@ -7,6 +7,16 @@ background-image: url('back.jpeg');
     padding: 0px;
 }
 
+li{
+list-style: none;
+}
+
+preimg{
+ width: 100px;
+ height: 100px;   
+    
+}
+
 img {
   max-width: 100%; }
 
@@ -34,30 +44,13 @@ img {
 
 }
 
-.preview-thumbnail.nav-tabs li {
+.preimg li {
     width: 15%;
-    margin-right: 2.5%; 
-    border: none;
+    margin-top: 20px;
+    margin-left: -60px
+    
 }
 
-    .preview-thumbnail.nav-tabs li img {
-
-      max-width: 100%;
-      display: block; 
-       border: none;
-
-}
-    .preview-thumbnail.nav-tabs li a {
-        
-         padding: 0;
-      margin: 0; 
-		border: none;
-}
-
-    .preview-thumbnail.nav-tabs li:last-of-type {
-      margin-right: 10; 
-	border: none;
-}
 
 .tab-content {
   overflow: hidden; }
